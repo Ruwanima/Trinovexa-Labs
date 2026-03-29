@@ -1,36 +1,125 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🚀 Trinovexa Labs Website
 
-## Getting Started
+**"Three Minds. Infinite Innovation."**
 
-First, run the development server:
+Modern, responsive company website built with Next.js 14, TypeScript, Tailwind CSS, featuring dark mode, brand kit styling, and mobile-optimized navigation.
+
+## ✨ Features
+
+- 🌙 **Dark Mode** - Automatic theme switching with localStorage persistence
+- 📱 **Responsive Design** - Mobile-first, fully responsive layout
+- 🎨 **Brand Styling** - Custom colors, typography, gradients matching brand kit
+- 🔄 **Logo Switching** - Automatic logo swap for light/dark modes
+- 🧭 **Modern Navigation** - Sticky navbar with smooth scroll anchors
+- ⚡ **High Performance** - Optimized images, static generation, fast load times
+- 📊 **SEO Ready** - Meta tags, semantic HTML, accessibility best practices
+
+## 🛠️ Tech Stack
+
+- **Framework:** Next.js 14 (App Router)
+- **Language:** TypeScript
+- **Styling:** Tailwind CSS
+- **Fonts:** Poppins, Montserrat, Inter (Google Fonts)
+- **Deployment:** Vercel
+
+## 🚀 Getting Started
+
+### Development Server
 
 ```bash
+# PowerShell
+Set-Location "D:\New folder\trinovexa-labs"
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+
+# Or use the provided script
+.\start-dev.ps1
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) to see the site.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### Build for Production
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```bash
+npm run build
+npm start
+```
 
-## Learn More
+### Lint Code
 
-To learn more about Next.js, take a look at the following resources:
+```bash
+npm run lint
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 📁 Project Structure
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+```
+src/
+├── app/
+│   ├── layout.tsx       # Root layout with fonts & metadata
+│   ├── page.tsx         # Home page with all sections
+│   └── globals.css      # Global styles, animations, dark mode
+└── ...
 
-## Deploy on Vercel
+public/
+├── WhatsApp Image 2026-03-29 at 20.50.28.jpeg  # Dark mode logo
+├── WhatsApp Image 2026-03-29 at 21.51.04.jpeg  # Light mode logo
+└── ...
+```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 🎨 Brand Kit
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- **Primary Colors:** #0A1F44 (Navy), #1E90FF (Blue), #FF6A00 (Orange)
+- **Secondary:** #FFFFFF, #0B0F1A (Black)
+- **Fonts:** Poppins (Headings), Montserrat (Alt), Inter (Body)
+- **Tagline:** "Three Minds. Infinite Innovation."
+
+## 📝 Sections
+
+1. **Hero** - Landing section with CTA buttons
+2. **Services** - Core offerings (Product Engineering, Cloud, Data & AI, QA)
+3. **About Us** - Company value proposition
+4. **Logo Usage Rules** - Brand guidelines
+5. **Contact** - Call-to-action with email link
+
+## 🔄 Navigation
+
+- Home
+- Services
+- About Us
+- Contact
+
+## 🌐 Deployment
+
+### Deploy to Vercel (Recommended)
+
+1. Push to GitHub: `https://github.com/Ruwanima/Trinovexa-Labs`
+2. Go to [vercel.com](https://vercel.com)
+3. Import repository
+4. Click "Deploy"
+
+**Live:** `https://trinovexa-labs.vercel.app`
+
+See [DEPLOYMENT.md](./DEPLOYMENT.md) for detailed instructions.
+
+## 🛠️ Development Scripts
+
+```bash
+npm run dev      # Start dev server
+npm run build    # Build for production
+npm start        # Start production server
+npm run lint     # Run ESLint
+```
+
+## 📚 Learn More
+
+- [Next.js Docs](https://nextjs.org/docs)
+- [Tailwind CSS](https://tailwindcss.com)
+- [Vercel Docs](https://vercel.com/docs)
+
+## 📄 License
+
+Open source - feel free to customize for your needs!
+
+---
+
+**Built with ❤️ for Trinovexa Labs**
